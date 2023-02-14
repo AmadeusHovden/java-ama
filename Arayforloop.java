@@ -11,6 +11,12 @@ public class Arayforloop {
         // kaker[3] = "muffins";
         kaker[4] = "sjokoladekake";
 
+        // for loop kjører en blokk med kode et avgrenset antall ganger.
+        // motsatt av while loop som kan kjøre en kode evig hvis tilstanden alltid er
+        // true.
+        // vi vet hvor mange ganger en for loop skal kjøre før vi i det hele tatt kjører
+        // den . // for (int i = 0; i < 10; i ++)
+
         // for (int i = 0; i < kaker.length; i++) {
         System.out.println(kaker[4]);
     }
