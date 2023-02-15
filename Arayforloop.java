@@ -17,7 +17,8 @@ public class Arayforloop {
         // vi vet hvor mange ganger en for loop skal kjøre før vi i det hele tatt kjører
         // den . // for (int i = 0; i < 10; i ++)
 
-        // for (int i = 0; i < kaker.length; i++) {
-        System.out.println(kaker[4]);
+        for (int i = 0; i < kaker.length; i++) {
+            System.out.println(kaker[i]);
+        }
     }
 }

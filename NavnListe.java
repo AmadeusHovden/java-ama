@@ -25,6 +25,9 @@ public class NavnListe {
          * System.out.println(iterator.next());
          * }
          * 
+         */
+
+        /*
          * // fjerne
          * Iterator<String> Iterator = navn.iterator();
          * while (iterator.hasNext()) {
