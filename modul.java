@@ -11,8 +11,8 @@ public class modul {
 
         // Random
         Random terning = new Random();
-        int tilfeldigTerning = terning.nextInt(6);
-        System.out.println("du fikk: " + tilfeldigTerning);
+        int tilfeldigTerning = terning.nextInt(6) + 1;
+        System.out.println("du fikk terningkast: " + tilfeldigTerning);
 
         // HASHMAP
         HashMap<String, Integer> hashMap = new HashMap<>();

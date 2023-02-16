@@ -3,13 +3,13 @@ import java.util.Iterator;
 
 public class NavnListe {
     public static void main(String[] args) {
-        ArrayList<String> navn = new ArrayList<>();
+        ArrayList<Integer> navn = new ArrayList<>(); // oppretter Arraylist med Integer objekter
 
-        navn.add("Ama");
-        navn.add("Kan");
-        navn.add("San");
-        navn.add("Pet");
-        navn.add("Sil");
+        navn.add(2);
+        navn.add(2);
+        navn.add(4);
+        navn.add(6);
+        navn.add(8);
 
         // while
         int i = 0;

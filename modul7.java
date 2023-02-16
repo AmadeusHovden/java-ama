@@ -11,7 +11,7 @@ public class modul7 {
 
         for (int i = 0; i < kaker.length; i++) {
 
-            String favorittKake = (i == 0) ? "Min favorittkake er " + kaker[i]
+            String favorittKake = (i == 4) ? "Min favorittkake er " + kaker[i]
                     : kaker[i] + " er ikke min favoritt,  men fortstat god";
 
             System.out.println(favorittKake);
